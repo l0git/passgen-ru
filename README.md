@@ -16,13 +16,9 @@
 
 ## How To Use
 $ git clone https://github.com/l0git/passgen-ru.git
+
 $ cd PassGen/
+
 $ python3 ./passgen.py
 ```
-
-## Screenshots
-<a href="https://ibb.co/xLPWs0r"><img
-src="https://ibb.co/h9hbMjT/2019-07-30-22-57-58.png" alt="1"
-border="0"></a>
-
 
