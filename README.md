@@ -15,7 +15,7 @@
 Для этого скрипта требуеться версия Python>= 3.0
 
 ## Как пользоваться
-$ git clone https://github.com/l0git/passgen-ru.git
+$ git clone https://github.com/l0git/PassGen-Ru.git
 
 $ cd PassGen/
 
