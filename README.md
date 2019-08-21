@@ -17,7 +17,7 @@
 ## Как пользоваться
 $ git clone https://github.com/l0git/PassGen-Ru.git
 
-$ cd PassGen/
+$ cd PassGen-Ru/
 
 $ python3 ./passgen.py
 ```
