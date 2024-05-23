@@ -70,7 +70,7 @@ class PassGen:
     def format_names(self):
         for _ in range(self.max_count_main):
             if not self.silent:
-                print(f'генерация: {len(self.passwords)}')
+                print(f'Генерация: {len(self.passwords)}')
 
             iters = 0
             for data in [self.target, self.spouse, self.child, self.pet]:
@@ -182,7 +182,7 @@ class PassGen:
         self.pet = self.question('питомца')
         print('\n')
 
-        print('генерацыя оснавный паролей... \nIt\'s may take a while.')
+        print('Генерация основных паролей... \nIt\'s may take a while.')
         self.format_names()
         if self.silent:
             print("...generated {} main passwords".format(len(self.passwords)))
@@ -193,7 +193,7 @@ class PassGen:
         with open(output_file, 'wt') as f:
             for pwd in self.passwords:
                 if not self.silent:
-                    print('написание ...')
+                    print('Написание ...')
                 f.write('{}\n'.format(pwd))
 
         if not ignore_additional:
@@ -210,7 +210,7 @@ class PassGen:
             if self.silent:
                 print("...generated {} additional combinations".format(self.max_count*3))
 
-        print('пароли сохранились в файле: {}'.format(output_file))
+        print('Пароли сохранились в файле: {}'.format(output_file))
         quit()
 
 
